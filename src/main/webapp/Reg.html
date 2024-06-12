@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet'  href='democss.css'>
+    <script src='main.js'></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <table width="100%" border="0">
+        <tr>
+            <td colspan="3">
+                <center>
+                    <h2>Register Form</h2>
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td width="25%"></td>
+            <td width="50%">
+                
+                <table class="tablereg">
+                    <tr>
+                        <td class="textcss">First Name </td>
+                        <td><input type="text" name="txtFname" class="textboxstyle" /></td>
+                    </tr>
+            
+                    <tr>
+                        <td class="textcss">Last Name </td>
+                        <td><input type="text" name="txtLname" class="textboxstyle" /></td>
+                    </tr>
+            
+                    <tr>
+                        <td class="textcss">Gender </td>
+                        <td>
+                        <p class="cssradio_checkbox">
+                            <input type="radio" name="rdoGender" id="rdoMale" value="Male" />Male
+                            <input type="radio" name="rdoGender" id="rdoFemale" value="Female" />Female
+                        </p>
+                        </td>
+                    </tr>
+                   
+            
+                    <tr>
+                        <td class="textcss">Hobbies </td>
+                        <td>
+                        <p class="cssradio_checkbox">
+                            <input type="checkbox" name="chkHob1" value="reading" />Reading Books
+                            <input type="checkbox" name="chkHob2" value="chess" />Playing Chess
+                            <br />
+                            <input type="checkbox" name="chkHob3" value="garden" />Gardening
+                        </p>
+                        </td>
+                    </tr>
+            
+                    <tr>
+                        <td class="textcss">Birth Date </td>
+                        <td><input type="date" name="txtBdate" class="textboxstyle" /></td>
+                    </tr>
+            
+                    <tr>
+                        <td class="textcss">Email </td>
+                        <td><input type="email" name="txtEmail" class="textboxstyle" /></td>
+                    </tr>
+            
+                    <tr>
+                        <td class="textcss">Phone Number </td>
+                        <td><input type="tel" name="txtPhone" class="textboxstyle" /></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="textcss">Address</td>
+                        <td>
+                            <textarea  name="txtAdrs"  cols="30"  rows="5"></textarea>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="textcss">Location </td>
+                        <td>
+                            <select name="ddlCity" class="dropdown">
+                                <option value="-1">Select City</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Bangalore">Bangalore</option>
+                                <option value="Pune">Pune</option>
+                            </select>    
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2" style="text-align:center">
+                            <input type="button"  value="Click Me" class="buttonstyle" />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="button"  value="Clear All" class="buttonstyle" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="25%"></td>
+        </tr>
+    </table>
+</body>
+</html>
