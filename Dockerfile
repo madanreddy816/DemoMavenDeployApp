@@ -21,11 +21,11 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Copy the packaged application from the build stage
-COPY DemoMavenDeployApp-1.0-SNAPSHOT.jar /app/DemoMavenDeployApp.jar
+COPY DemoMavenDeployApp-1.0-SNAPSHOT.war /app/DemoMavenDeployApp.war
 
 
 # Expose the application port (if applicable)
 EXPOSE 8080
 
 # Command to run the application
-ENTRYPOINT ["java", "-jar", "DemoMavenDeployApp.jar"]
+ENTRYPOINT ["java", "-war", "DemoMavenDeployApp.war"]
